@@ -1,6 +1,5 @@
 // Basics
-var myString;
-myString = 'Hello, World!';
+var myString = 'Hello, World!';
 console.log(myString);
 // Classes
 var Person = /** @class */ (function () {
@@ -20,3 +19,9 @@ newUser.classDidCreate();
 function test(message) {
     console.log(message);
 }
+var mySum = function (num1, num2) {
+    return num1 + num2;
+};
+var getName = function (firstName, lastName) {
+    return firstName + " " + lastName;
+};
